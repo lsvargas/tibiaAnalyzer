@@ -5,7 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .DS_Store
+<<<<<<< HEAD
 build/
+=======
+>>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
 
 # Runtime data
 pids

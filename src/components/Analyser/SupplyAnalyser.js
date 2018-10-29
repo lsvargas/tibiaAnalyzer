@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 // import { BrowserRouter, Route, Switch } from 'react-router-dom';
+<<<<<<< HEAD
 import { Grid, Segment, Button } from 'semantic-ui-react';
+=======
+import { Grid, Segment } from 'semantic-ui-react';
+>>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
 import Form from './SupplyForm';
 import Aux from '../Aux/Aux';
 
@@ -8,6 +12,7 @@ import Aux from '../Aux/Aux';
 const styles = {
   item: {
     color: '#fff',
+<<<<<<< HEAD
     minHeight: '1em',
   },
   columnStyle: {
@@ -22,6 +27,12 @@ const styles = {
 
   grid: {
     marginTop: '2rem',
+=======
+    minHeight: '2em',
+  },
+  columnStyle: {
+    backgroundColor: '#495285',
+>>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
   }
 };
 
@@ -34,6 +45,7 @@ class Analyser extends Component {
       player3: 0,
       player4: 0,
       prices: {
+<<<<<<< HEAD
         mana: 56,
         smana: 93,
         gmana: 144,
@@ -45,12 +57,28 @@ class Analyser extends Component {
         suhealth: 625,
         gspirit: 228,
         uspirit: 438,
+=======
+        mana: 50,
+        smana: 80,
+        gmana: 120,
+        umana: 350,
+        health: 45,
+        shealth: 100,
+        ghealth: 190,
+        uhealth: 310,
+        suhealth: 500,
+        gspirit: 190,
+        uspirit: 350,
+>>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
       }
     };
     this.addWaste = this.addWaste.bind(this);
     this.handleClick = this.handleClick.bind(this);
+<<<<<<< HEAD
     this.resetPlayerWaste = this.resetPlayerWaste.bind(this);
     this.returnWaste = this.returnWaste.bind(this);
+=======
+>>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
   }
 
   addWaste(player, amount, type) {
