@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
-<<<<<<< HEAD
 import { Form, Button } from 'semantic-ui-react'
 import Aux from '../Aux/Aux';
 import Mana from '../../assets/images/mpp.gif';
@@ -14,17 +13,12 @@ import SuHealth from '../../assets/images/suh.gif';
 import Health from '../../assets/images/h.gif';
 import Gspirit from '../../assets/images/gs.gif';
 import Uspirit from '../../assets/images/us.gif';
-=======
-import Aux from '../Aux/Aux';
-import { Form, Button } from 'semantic-ui-react'
->>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
 
 
 const styles = {
   item: {
     color: '#fff',
   },
-<<<<<<< HEAD
   imgDim: {
     width: '35px',
     height: '35px',
@@ -34,8 +28,6 @@ const styles = {
     backgroundColor: '#475286',
   }
   
-=======
->>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
 };
 
 class SupplyForm extends Component {
@@ -58,19 +50,15 @@ class SupplyForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-
+g
   handleChange(e){
     this.setState({ [e.target.name]: e.target.value });
   }
 
   handleSubmit(e){
-<<<<<<< HEAD
     const { player, sumWaste, resetWaste } = this.props;
     resetWaste(player);
     
-=======
-    const { player, sumWaste } = this.props;
->>>>>>> fa1fe3d5a8adf2f9031f1f5765f2bd5cf8cc1e99
     const array = Object.keys(this.state);
     array.map((x,i) => {
       console.log(x);
